@@ -275,6 +275,10 @@ footer {
         margin: 5%;
     }
 
+    nav {
+        height: 50px;
+    }
+
     .introbox {
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -330,6 +334,10 @@ footer {
 
 @media screen and (max-width: 800px) {
 
+    nav {
+        height: 100px;
+    }
+    
     .h1h1 {
         background-color: rgb(23, 23, 23);
         padding: 1em 0;
