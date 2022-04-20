@@ -53,6 +53,7 @@
 
 body {
     background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -83,6 +84,12 @@ li {
     text-decoration: none;
 }
 
+a {
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+
 .h1 {
     display: none;
 }
@@ -96,20 +103,33 @@ li {
     margin: 0;
 }
 
+.intro {
+    background-color: rgb(23, 23, 23);
+}
+
 .introbox {
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
+    padding: 6em 0;
 }
 
 .introimg {
-    width: 85%;
+    width: 90%;
+}
+
+.introimg1 {
+    display: none;
 }
 
 h2 {
     font-size: 6em;
-    font-weight: bold;
     text-align: end;
+    color: white;
+}
+
+.h2pp {
+    padding-top: 0.8em;
 }
 
 .introp {
@@ -131,13 +151,14 @@ h2 {
 
 .theorybox {
     display: grid;
-    grid-template-columns: 45% 45%;
-    color: white;
+    grid-template-columns: 50% 50%;
+    color: #cdcdcd;
     text-align: start;
 }
 
 p {
     font-size: 2em;
+    line-height: 1.5em;
 }
 
 .theorybox1 {
@@ -152,18 +173,87 @@ p {
 
 .theoryboxh2 {
     text-align: start;
-    font-size: 5em;
-    padding-bottom: 0.5em;
+    font-size: 6em;
+    padding-bottom: 0.7em;
+    color: #cdcdcd;
 }
 
 .banner5box {
     width: 100%;
     display: grid;
-    grid-template-columns: 18% 18% 18% 18% 18% ;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
 }
 
 .tired {
-    width: 100%;
+    width: 95%;
 
 }
 
+.infoboxh2 {
+    text-align: start;
+    padding-bottom: 0.7em;
+    font-size: 6em;
+}
+
+.infoboxp {
+    color: #cdcdcd;
+    width: 70%;
+}
+
+.artworksbox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-template-rows: 30% 30% 30%;
+}
+
+.art {
+    width: 100%;
+}
+
+.art1 {
+    padding-right: 4em;
+    padding-bottom: 12em;
+}
+
+.art3 {
+    padding-right: 4em;
+    padding-bottom: 12em;
+}
+
+.art5 {
+    padding-right: 4em;
+}
+
+.art2 {
+    padding-left: 4em;
+    padding-bottom: 12em;
+}
+
+.art4 {
+    padding-left: 4em;
+    padding-bottom: 12em;
+}
+
+.art6 {
+    padding-left: 4em;
+}
+
+footer {
+    background-color: rgb(23, 23, 23);
+    color: rgb(122, 122, 122);
+    margin-bottom: -3%;
+    margin-top: -5%;
+}
+
+.footerp {
+    font-size: 1.8em;
+}
+
+.footerp1 {
+    padding-top: 2em;
+}
+
+.footerp2 {
+    padding-bottom: 6em;
+}
