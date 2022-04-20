@@ -51,6 +51,12 @@
 /* ============ CSS RESET ============ */
 
 
+
+/* ================================= */
+/* ===========  DESKTOP  =========== */
+/* ================================= */
+
+
 body {
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -193,6 +199,7 @@ p {
     text-align: start;
     padding-bottom: 0.7em;
     font-size: 6em;
+    color: #cdcdcd;
 }
 
 .infoboxp {
@@ -256,4 +263,254 @@ footer {
 
 .footerp2 {
     padding-bottom: 6em;
+}
+
+/* ================================= */
+/* ===========  TABLET  =========== */
+/* ================================= */
+
+@media screen and (max-width: 1600px) {
+
+    .container {
+        margin: 5%;
+    }
+
+    .introbox {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        padding: 5em 1em;
+    }
+
+    .introimg {
+        display: none;
+    }
+
+    .introimg1 {
+        display: block;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 6em;
+        text-align: start;
+    }
+    
+    .introp {
+        font-size: 2em;
+        text-align: start;
+    }
+
+    .theorybox {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    
+
+    .theorybox1 {
+        padding: 0;
+    }
+    
+    .theorybox2 {
+        padding: 0;
+    }
+
+    .infoboxp {
+        width: 100%;
+    }
+
+}
+
+/* ================================= */
+/* ===========  MOBILE  =========== */
+/* ================================= */
+
+@media screen and (max-width: 800px) {
+
+    .h1h1 {
+        background-color: rgb(23, 23, 23);
+        padding: 1em 0;
+    }
+    
+    .h1 {
+        display: block;
+        color: white;
+        font-size: 6em;
+    }
+    
+    .h1p {
+        display: block;
+        color: white;
+        font-size: 1.5em;
+        padding-top: 0.5em;
+    }
+    
+    .bannerimg {
+        display: none;
+    }
+
+    .tired {
+        display: none;
+    }
+
+    .artworksbox {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .art1 {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    
+    .art3 {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    
+    .art5 {
+        padding-right: 0;
+    }
+    
+    .art2 {
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    
+    .art4 {
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    
+    .art6 {
+        padding-left: 0;
+    }
+
+    .art {
+        padding: 2em 0;
+    }
+
+    footer {
+        margin-top: 3em;
+    }
+
+}
+
+
+/* ============================================================================ */
+/* =========================  CONTUCT US PAGE  =============================== */
+/* ========================================================================== */
+
+
+/* ================================= */
+/* ===========  DESKTOP= =========== */
+/* ================================= */
+
+.contactusall {
+    background-color: rgb(107, 126, 158);
+}
+
+.contactush1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 24%;
+    margin-right: 22%;
+    margin-top: 16%;
+    font-size: 12em;
+}
+
+.contactusboxes {
+    color: rgb(198, 199, 204);
+    margin-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+}
+
+.contactusboxes1 {
+    padding-top: 1em;
+}
+
+#fullname {
+    width: 50%;
+    height: 8em;
+}
+
+#email {
+    width: 50%;
+    height: 8em;
+}
+
+#message {
+    width: 100%;
+    height: 300px;
+}
+
+.formname {
+    padding-bottom: 0.5em;
+}
+
+.contactusboxesbutton {
+    background-color: rgb(170, 37, 23);
+    font-size: 1em;
+    padding: 30px 130px;
+    color: white;
+    margin-top: 2em;
+    border-style: none;
+    cursor: pointer;
+}
+.contactusboxesbutton1 {
+    text-align: center;
+}
+
+.contactfooter {
+    margin-top: 3em;
+    margin-bottom: -5%;
+}
+
+/* ================================= */
+/* ============  TABLET ============ */
+/* ================================= */
+
+@media screen and (max-width: 1600px) {
+    #fullname {
+        width: 70%;
+        height: 8em;
+    }
+
+    #email {
+        width: 70%;
+        height: 8em;
+    }
+}
+
+/* ================================= */
+/* ============  MOBILE ============ */
+/* ================================= */
+
+@media screen and (max-width: 800px) {
+
+    #fullname {
+        width: 100%;
+        height: 6em;
+    }
+
+    #email {
+        width: 100%;
+        height: 6em;
+    }
+
+    .contactusboxes {
+        font-size: 1.7em;
+    }
+
+    .contactfooter {
+        font-size: 0.8em;
+    }
+
 }
